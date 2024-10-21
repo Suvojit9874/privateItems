@@ -1,0 +1,18 @@
+server:
+  port: 8099
+  servlet:
+    context-path: /coursemanagement
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/projectmanagement
+    username: postgres
+    password: Adminpass
+    driver-class-name: org.postgresql.Driver
+#logging:
+#  level:
+#    root: "WARN"
+#    OFF << FATAL << ERROR << WARN << INFO << DEBUG << TRACE << ALL
+#  path: /Users/innovation/Documents/Darshit/work/Incubator/logs.txt
+#  pattern:
+#    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+#    file: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"

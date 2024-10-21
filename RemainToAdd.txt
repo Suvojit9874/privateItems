@@ -1,0 +1,7 @@
+Check Location before update and delete data
+we have to add JSON Object for each return
+follow this structure updateSubBatch
+Add one converter function in each model from Dao
+isdelete remove karna hai, sare updatedao se
+
+Need to Learn Bidirection implemention in models and save data

@@ -1,0 +1,10 @@
+server:
+  port: 8099
+  servlet:
+    context-path: /coursemanagement
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demojwt
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
